@@ -1,0 +1,195 @@
+/* BEGIN SETUP (you will not need to use these) */
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+.flags {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+/* END SETUP */
+
+/* Classes that you might find useful */
+/* You may also have to implement your own classes */
+
+label:hover {
+  color: red;
+  font-size: 50px;
+}
+
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: 33.3%;
+}
+
+.threehoriz {
+  height: 100%;
+  width: 32.7%;
+  display: inline-block;
+}
+
+.narrow {
+  height: 17.5%;
+}
+
+.wide {
+  height: 30%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+/* Colors */
+
+/* QUESTION 1 */
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.light-blue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #000;
+}
+
+.red {
+  background-color: red;
+}
+
+#white {
+  background-color: #fff;
+}
+
+/* BEGIN QUESTION 2 */
+
+.thailand-red {
+  height: 50px;
+  background-color: #B5002D;
+}
+
+.thailand-white {
+  height: 50px;
+  background-color: white;
+}
+
+.thailand-blue {
+  height: 100px;
+  background-color: #2E2A4C;
+}
+
+/* END QUESTION 2 */
+
+/* BEGIN QUESTION 3 */
+
+.romania-blue {
+  background-color: #002c84;
+}
+
+.romania-yellow {
+  background-color: #ffcf00;
+}
+
+.romania-red {
+  background-color: #e10017;
+}
+
+/* END QUESTION 3 */
+
+/* QUESTION 4 */
+.mexico-green {
+  background-color: #006341;
+}
+
+.mexico-img {
+  background-color: white;
+  background-image: url("eagle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+
+.mexico-red {
+  background-color: #ce1126;
+}
+
+/* QUESTION 6 */
+.margin-container {
+  height: 300px;
+  width: 1030px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.margin-container > .flag1 {
+  height: 100%;
+  width: 100%;
+  margin-right: 10px;
+  background-color: white;
+  /* TODO */
+}
+
+.margin-container > .flag2 {
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+  background-color: white;
+  /* TODO */
+}
+
+/* For padding practice */
+.padding-container {
+  box-sizing: border-box;
+  background-color: yellow;
+  background-clip: content-box, padding-box;
+  padding: 60px;
+  /* TODO */
+}
